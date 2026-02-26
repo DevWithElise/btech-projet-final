@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive - Page d'accueil */
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+  }
+
+  .navbar-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-decoration: underline;
+    margin-right: 48px;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .navigation {
+    font-size: 18px;
+    margin: 0 12px;
+  }
+
+  .introduction,
+  .decouvrir-les-cartes,
+  .pense {
+    margin: 60px 20px;
+  }
+
+  .texte-intro {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .cartes-du-jeu,
+  .avis-cartes {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .voir-cartes,
+  .avis {
+    width: 100%;
+    padding: 32px;
+  }
+
+  .voir-cartes img,
+  .avis img {
+    width: 120px;
+    height: auto;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+}
+
+/* Responsive - Page À propos */
+
+@media (max-width: 768px) {
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero img {
+    width: 250px;
+    height: auto;
+  }
+
+  .moi {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 20px;
+  }
+
+  .moi img {
+    width: 250px;
+    height: auto;
+  }
+
+  .texte-intro {
+    margin: 0;
+    line-height: 32px;
+  }
+
+  .creation {
+    margin: 60px 20px;
+    gap: 40px;
+  }
+
+  .emoji {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .action {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .action img {
+    width: 60px;
+    height: auto;
+  }
+
+  .action:hover {
+    transform: none;
+  }
+
+  .bande-dessinee {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .illustrations-de-la-creation {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+/* Responsive - Page Les cartes */
+
+@media (max-width: 768px) {
+
+  h2, h3, h4 {
+    text-align: center;
+  }
+
+  .hero img {
+    width: 250px;
+    height: auto;
+  }
+
+  .personnes {
+    flex-direction: column;
+    margin: 32px 16px;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .description-suspects {
+    padding: 24px;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .description {
+    line-height: 28px;
+    font-size: 16px;
+  }
+
+  /* LES ARMES */
+  .cartes-les-armes {
+    margin: 32px 16px;
+    gap: 32px;
+  }
+
+  .voir-cartes {
+    width: 200px;
+    padding: 16px;
+    margin: 16px auto;
+  }
+
+  /* LES LIEUX */
+  .card-container {
+    flex-direction: column;
+    padding: 16px;
+    gap: 24px;
+  }
+
+  .card {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  .card-desc {
+    font-size: 16px;
+    gap: 16px;
+    padding: 12px;
+  }
+
+  .lieux {
+    padding: 0 16px;
+    line-height: 24px;
+  }
+}

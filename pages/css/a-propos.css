@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 0 0 20px #0f446f;
+}
+
+p{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* Header */
+
+.navigation:hover{
+    color: #0f446f;
+    transition-property: color;
+    transition-duration: 2s;
+}
+
+/* Qui suis-je ? */
+
+.moi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* La création */
+
+.creation {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 48px;
+  gap: 24px;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 500px;
+  color: #F5F5F5;
+  padding: 48px;
+  margin-bottom: 48px;
+}
+
+.action:hover{
+  transform: scale(1.2);
+}
+
+h3{
+    font-size: 32px;
+}
+
+.texte-intro{
+  margin: 0 32px;
+  line-height: 48px;
+}
+
+.bande-dessinee{
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+}
+
+.illustrations-de-la-creation{
+    color: #242424;
+    border-radius: 24px;
+    box-shadow: 0 0 25px #0f446f;
+    margin-top: 48px;
+    background-color: #F5F5F5;
+}
