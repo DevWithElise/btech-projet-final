@@ -2,6 +2,7 @@
 tags:
   - btech
   - session-48
+  - Florian Grosboillot
 ---
 
 # README — Projet Solo
@@ -14,7 +15,7 @@ tags:
 
 ## 1. Informations générales
 
-- **Nom / Prénom :** BORREDON Élise
+- **Prénom / Nom :** Élise B.
 
 - **Nom du projet / du site :** Murder in Space
 
