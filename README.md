@@ -7,10 +7,6 @@ tags:
 
 # README — Projet Solo
 
-> ⚠️ Ce document est **à compléter entièrement**.
->
-> Supprimez les indications entre crochets `[...]` et remplacez-les par vos informations.
-
 ---
 
 ## 1. Informations générales
